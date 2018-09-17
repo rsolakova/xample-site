@@ -23,18 +23,6 @@
     max-width: 100%;
   }
   .main-picture button {
-    /* background: #1A1ABB;
-    width: 201px;
-    height: 69px;
-    position: absolute;
-    color: white;
-    font-size: 38px;
-    border: none; 
-    transition: all 0.5s;
-    cursor: pointer;
-    outline: none;
-    left: 585px;
-    top: 600px; */
     background: #1A1ABB;
     width: 201px;
     height: 69px;
@@ -71,7 +59,6 @@
     right: 0;
   }
   .content-wrapper {
-    /* width: 728px; */
     padding-top: 60px;
     padding-left: 60px;
     padding-right: 60px;
@@ -82,10 +69,8 @@
   }
   .content-wrapper .picture {
     margin-top: 50px;
-    /* display: flex; */
   }
   .content-wrapper .picture img {
-    /* max-width: 70%; */
     max-width: 100%;
     text-align: left;
   }

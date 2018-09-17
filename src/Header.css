@@ -31,8 +31,6 @@
   .header-container.logo {
     list-style: none;
     display: flex;
-    /* margin: 0;
-    padding: 0; */
     text-decoration: none;
     color: white;
     padding: 20px;
@@ -97,8 +95,6 @@
   }
   .navigation-menu.menu {
     position: absolute;
-    /* left: 313px; */
-    /* top: 139px; */
     right: 0px;
     z-index: 2;
     background: white;
