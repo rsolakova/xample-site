@@ -24,7 +24,6 @@
     display: flex;
     padding-bottom: 15px;
     font-size: 12px;
-  
   }
   .navigation-menu li {
     list-style-type: none;
@@ -35,7 +34,6 @@
     display: flex;
     cursor: pointer;
   }
-  
   .navigation-menu li div {
     margin-left: 15px;
     align-self: center;
@@ -79,7 +77,6 @@
   .testimonials-contact .text {
     font-weight: 600;
   }
-  
   .contacts-wrapper {
     margin-bottom: 20px;
     text-align: start;
@@ -89,6 +86,15 @@
   .social-media {
     margin-top: 100px;
     padding-right: 10px;
+  }
+  .social .fa {
+  margin-right: 5px;
+  color: black;
+  font-size: 20px;
+  vertical-align: center;
+  position: absolute;
+  right: 5px;
+  top: 8px;
   }
   .circle.pinterest {
     background: red;
@@ -151,36 +157,36 @@
       margin-bottom: 50px;
     }
     .social-media .nav-wrapper {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     .social-media ul {
-     width: 75%;
+      width: 75%;
     }
     .navigation-wrapper {
       padding-left: 15px;
       padding-right: 15px;
-     }
-     .navigation-menu.nav {
-       display: none;
-     }
-     .hamburger-menu-container .navigation-menu.menu {
+    }
+    .navigation-menu.nav {
+      display: none;
+    }
+    .hamburger-menu-container .navigation-menu.menu {
       width: 100%;
     }
-     .testimonials-contact {
-       margin-top: 20px;
-     }
-     .contact {
+    .testimonials-contact {
+      margin-top: 20px;
+    }
+    .contact {
       margin-top: 50px;
       display: flex;
       flex-direction: column;
       align-items: center;
-     }
-     .contact div {
+    }
+    .contact div {
       text-align: center;
-     }
-     .title-wrapper {
+    }
+    .title-wrapper {
       display: block;
     }
   }

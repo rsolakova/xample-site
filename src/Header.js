@@ -105,7 +105,7 @@ export default class Header extends Component {
                                         <div className="nav-wrapper opened-menu">
                                             <div className='title'>Navigation</div>
                                             <ul>
-                                                <li className='active right'><div>About us</div></li>
+                                                <li className='active hamburger-open'><div>About us</div></li>
                                                 <li><div>Webinars</div></li>
                                                 <li><div>Ambassadors</div></li>
                                                 <li><div>Testimonials</div></li>

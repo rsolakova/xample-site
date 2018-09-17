@@ -26,15 +26,15 @@ export default class Maps extends Component {
                     isOpen={this.state.modalIsOpen}
                     onAfterOpen={this.afterOpenModal}
                     onRequestClose={this.closeModal}
-                    style={ {
+                    style={{
                         content: {
                             padding: 0
                         }
-                    } }
+                    }}
                 >
                     <Iframe url={this.state.url} frameborder="0" style="border:0"></Iframe>
-                
-                </Modal>    
+
+                </Modal>
                 <div className='maps-adress'>
                     <div className='maps-img' onClick={this.openModal} data-url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.34194152504!2d-74.03927092356082!3d40.759040329429915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2z0JzQsNC90YXQsNGC0YrQvSwg0J3RjiDQmdC-0YDQuiwg0KHRitC10LTQuNC90LXQvdC4INGJ0LDRgtC4!5e0!3m2!1sbg!2sbg!4v1537192494936">
                         <img alt='Manhattan' src='https://cdn.vox-cdn.com/thumbor/52wMLCpqUS3gdBIVN_igAa8yKRU=/30x0:941x607/1200x800/filters:focal(30x0:941x607)/cdn.vox-cdn.com/assets/1349871/screenshot-20120910-085923.png' />

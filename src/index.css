@@ -4,10 +4,33 @@
 @import './Footer.css';
 
 
+html, body {
+  height: 100%
+}
+header,
+footer {
+  position: relative;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font: 11px "Open Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between
+}
+* {
+  box-sizing: border-box
+}
+ul {
+  list-style: none
+}
+a {
+  text-decoration: none
 }
 .nav-overlay {
   width: 100%;
@@ -19,23 +42,15 @@ body {
   z-index: -1;
   opacity: 0.8;
 }
-header,
-footer {
-  position: relative;
+.ReactModalPortal {
+  z-index: 2;
 }
+/*Class for active section of menu*/
 .active {
   background: white;
   color: #0C0CD2;
 }
-.social .fa {
-  margin-right: 5px;
-  color: black;
-  font-size: 20px;
-  vertical-align: center;
-  position: absolute;
-  right: 5px;
-  top: 8px;
-}
+/*Circle for the social icons because in font awesome they are different */
 .circle {
   display: inline-block;
   background: blue;
@@ -44,42 +59,11 @@ footer {
   height: 36px;
   position: relative;
 }
+/*Class for texts, titles etc. when we need bold effect*/
 .bold {
   font-weight: 600;
 }
-* {
-  box-sizing: border-box
-}
-html, body {
-  height: 100%
-}
-body {
-	font: 11px "Open Sans", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	margin: auto;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between
-}
-ul {
-  list-style: none
-}
-a {
-  text-decoration: none
-}
-.ReactModalPortal {
-  z-index: 2;
-}
-main {
-  flex: 1 1 auto; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font: 10em "Oswald", sans-serif;
-  color: rgb(155,155,155);
-  line-height: 1
-}
+
 @media (min-width: 1560px) {
   .App {
     border-left: 80px solid gray;

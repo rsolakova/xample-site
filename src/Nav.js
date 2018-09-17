@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import NavMenu from './Nav-Menu';
-import NavContact from "./Nav-Contact";
-import SocialMedia from "./Social-Media";
+import NavMenu from './NavMenu';
+import NavContact from "./NavContact";
+import SocialMedia from "./SocialMedia";
 
 export default class Nav extends Component {
     constructor(props) {

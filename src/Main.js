@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react';
 
-import MainPicture from './Main-Picture';
-import MainMiddle from './Main-Middle';
-import MainTopics from "./Main-Topics";
+import MainPicture from './MainPicture';
+import MainMiddle from './MainMiddle';
+import MainTopics from "./MainTopics";
 import Maps from "./Maps";
 
 

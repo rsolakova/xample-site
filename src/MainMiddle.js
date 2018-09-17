@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Maps from './Maps'
-import MainTopics from './Main-Topics';
+import MainTopics from './MainTopics';
 
 export default class MainMiddle extends Component {
     constructor(props) {

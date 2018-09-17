@@ -1,288 +1,284 @@
+
+footer {
+  background: #F9F6F6;
+  margin-top: auto;
+  width: 100%
+}
+.footer-list-top {
+  width: 25%;
+}
+.footer-list-top .text {
+  font-size: 16px;
+  width: 85%;
+  text-align: left;
+  font-weight: 600;
+}
+.footer-list-top div {
+  font-size: 13px;
+}
+.footer-list-top li {
+  text-align: left;
+  padding-bottom: 6px;
+}
+.footer .social-media {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.footer .social-media .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .social-media .fa {
+  font-size: 20px;
+  color: white;
+}
+.footer .social-media {
+  margin-top: 10px;
+}
+.footer .social-media .social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.footer .social-icon:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.footer .generic-anchor:hover {
+  color: blue;
+}
+.footer-last div:hover {
+  color: blue;
+}
+.footer-last {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}  
+.footer-last div{
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: grey;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.footer-list-top .small-text {
+  display: block;
+}
+.footer-list-top .photo-book {
+  padding-left: 0;
+  padding-right: 150px;
+}
+.footer-list-top .sign {
+  text-align: left;
+}
+.footer-social-section {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px;
+}
+.footer-social-section::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 10px;
+  border-top: 1px solid #ccc;
+  width: calc(100% - 20px)
+}
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
+  background: rgb(55,55,55);
+  padding: 0 20px
+}
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font: 3.5em "Oswald", sans-serif;
+  color: #fff
+}
+.footer-social-small {
+  font-size: 0.6em;
+  padding: 0px 20px
+}
+.footer-social-overlap > a {
+  font-size: 3em
+}
+.footer-social-overlap > a:not(:first-child) {
+  margin-left: 0.38em
+}
+.footer-bottom-section {
+  width: 100%;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  background: white;
+}
+.footer-bottom-section > div:first-child {
+  margin-right: auto
+}
+.footer-bottom-wrapper {
+  font-size: 1.5em;
+  color: #fff
+}
+.footer-address {
+  display: inline;
+  font-style: normal
+}
+.footer-list-header {
+  color:black;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.footer-container {
+  display: flex;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.generic-anchor {
+  color: #878383;
+  cursor: pointer;
+}
+.generic-anchor:visited {
+    color: #8DB9ED;
+}
+.generic-anchor:hover {
+  color: #ccc;
+}
 .products .footer-list-anchor {
-    text-transform: uppercase;
+  text-transform: uppercase;
+}
+.input-social {
+  width: 76%;
+  height: 100%;
+  text-align: left;
+  padding-top: 15px;
+}
+.input-social input {
+  width: 100%;
+  height: 10%;
+}
+.ourProducts {
+  text-transform: uppercase;
+}
+.col-container {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
+}
+.col-first {
+  width: 50%;
+}
+.col-second {
+  width: 50%;
+}
+.cards .col-second {
+  vertical-align: top;
+}
+
+@media only screen and (max-width: 75em) { 
+  .footer-container {
+    padding-left: 0px;
+    padding-right: 0px;
   }
-  .footer .social-media {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  .footer .social-media .circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .footer .social-media .fa {
-    font-size: 20px;
-    color: white;
-  }
-  .footer .social-media {
-    margin-top: 10px;
-  }
-  .footer .social-media .social-icon {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    cursor: pointer;
-  }
-  
-  .footer .social-icon:hover {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-  }
-  .footer .generic-anchor:hover {
-    color: blue;
-  }
-  .footer-last div:hover {
-    color: blue;
-  }
-  .footer-last {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }  
-  .footer-last div{
-    display: inline-block;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: grey;
-    margin-left: 20px;
-    cursor: pointer;
-  }
-  .generic-anchor {
-    color: #878383;
-    cursor: pointer;
-  }
-  .generic-anchor:visited {
-          color: #8DB9ED;
-  }
-  .generic-anchor::hover {
-    color: #ccc;
-  }
-  .footer-list-top .small-text {
-    display: block;
-  }
-  .input-social input {
-    width: 100%;
-    height: 10%;
-  }
-  .input-social {
-    width: 76%;
-    height: 100%;
-    text-align: left;
-    padding-top: 15px;
-  }
-  footer {
-   background: #F9F6F6;
-    margin-top: auto;
-    width: 100%
-  }
-  .footer-list-top {
-    width: 25%;
+}
+@media only screen and (max-width: 64em) { 
+  .footer-list-top div {
+    font-size: 10px;
   }
   .footer-list-top .text {
-    font-size: 16px;
-    width: 85%;
-    text-align: left;
-    font-weight: 600;
+    font-size: 12px;
   }
-  .footer-list-top div {
-    font-size: 13px;
+  .footer-last {
+    flex-wrap: wrap;
   }
-  .footer-list-top li {
-    text-align: left;
-    padding-bottom: 6px;
+}
+@media (max-width: 50em) { 
+  .footer-container {
+    flex-wrap: wrap;
   }
-  .cards .col-second {
-    vertical-align: top;
+  .footer-list-top {
+    width: 50%;
   }
-  .col-one {
-    padding-right: 40px;
-    width: 80%;
-  }
-  .ourProducts {
-    text-transform: uppercase;
-  }
-  .footer-list-top .photo-book {
-    padding-left: 0;
-    padding-right: 150px;
+}
+@media (max-width: 30em) {
+  .footer-container {
+    display: block;
   }
   .footer-list-header {
-    color:black;
-    font-size: 16px;
-    text-transform: uppercase;
-    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .footer {
+    width: 100%;
   }
   .footer-container {
-    display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .col-container {
-    display: flex;
-    justify-content: space-between;
+    display: block;
   }
   .flex-rw {
-    display: flex;
-    flex-flow: row wrap;
+    width: 100%;
   }
-  .footer-list-top .sign {
-    text-align: left;
+  .footer-list-header {
+    font-size: 12px;
+  }
+  .footer-list-header.products {
+    padding-right: 140px;
+  }
+  .footer-list-header.books {
+    padding-right: 140px;
+  }
+  .footer-list-top {
+    width: 100%;
+    justify-content: center;
   }
   .col-first {
-    width: 50%;
+    margin-right: 20px;
   }
-  .col-second {
-    width: 50%;
-  }
-  .footer-social-section {
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-    position: relative;
-    margin-top: 5px;
-  }
-  .footer-social-section::after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 10px;
-    border-top: 1px solid #ccc;
-    width: calc(100% - 20px)
-  }
-  .footer-social-overlap {
-    position: relative;
-    z-index: 2;
-    background: rgb(55,55,55);
-    padding: 0 20px
+  .footer-list-anchor {
+    font-size: 1.2em;
   }
   .footer-social-connect {
-    display: flex;
-    align-items: center;
-    font: 3.5em "Oswald", sans-serif;
-    color: #fff
-  }
-  .footer-social-small {
-    font-size: 0.6em;
-    padding: 0px 20px
+    font-size: 2.4em;
   }
   .footer-social-overlap > a {
-    font-size: 3em
+    font-size: 2.24em;
   }
-  .footer-social-overlap > a:not(:first-child) {
-    margin-left: 0.38em
+  .footer-list-top.sign {
+    text-align: left;
   }
-  .footer-bottom-section {
-    width: 100%;
-    padding: 20px;
-    border-top: 1px solid #ccc;
-    background: white;
-  }
-  .footer-bottom-section > div:first-child {
-    margin-right: auto
+  .footer-list-top.sign .text {
+    margin-right: 17px;
   }
   .footer-bottom-wrapper {
-    font-size: 1.5em;
-    color: #fff
+    font-size: 1.3em;
   }
-  .footer-address {
-    display: inline;
-    font-style: normal
+  .col-second {
+    margin-right: 80px;
   }
-
-  @media only screen and (max-width: 75em) { 
-    .footer-container {
-      padding-left: 0px;
-      padding-right: 0px;
-    }
+  .ourProducts .col-second {
+    margin-right: 44px;
   }
-  @media only screen and (max-width: 64em) { 
-    .footer-list-top div {
-      font-size: 10px;
-    }
-    .footer-list-top .text {
-      font-size: 12px;
-    }
-    .footer-last {
-      flex-wrap: wrap;
-    }
+  .sign .input-social {
+    padding-left: 0;
+    padding-top: 10px;
   }
-  @media (max-width: 50em) { 
-    .footer-container {
-      flex-wrap: wrap;
-    }
-    .footer-list-top {
-      width: 50%;
-    }
+  .footer-last {
+    padding-left: 0;
   }
-  @media (max-width: 30em) {
-    .footer-container {
-      display: block;
-     }
-     .footer-list-header {
-      font-size: 20px;
-      margin-bottom: 10px;
-     }
-     .footer {
-      width: 100%;
-    }
-    .footer-container {
-      display: block;
-    }
-    .flex-rw {
-      width: 100%;
-    }
-    .footer-list-header {
-      font-size: 12px;
-    }
-    .footer-list-header.products {
-      padding-right: 140px;
-    }
-    .footer-list-header.books {
-      padding-right: 140px;
-    }
-    .footer-list-top {
-      width: 100%;
-      justify-content: center;
-    }
-    .col-first {
-      margin-right: 20px;
-      }
-      .footer-list-anchor {
-        font-size: 1.2em;
-      }
-      .footer-social-connect {
-        font-size: 2.4em;
-      }
-      .footer-social-overlap > a {
-        font-size: 2.24em;
-      }
-      .footer-list-top.sign {
-        text-align: left;
-      }
-      .footer-list-top.sign .text {
-        margin-right: 17px;
-      }
-      .footer-bottom-wrapper {
-        font-size: 1.3em;
-      }
-      .col-second {
-        margin-right: 80px;
-      }
-      .ourProducts .col-second {
-        margin-right: 44px;
-      }
-      .sign .input-social {
-        padding-left: 0;
-        padding-top: 10px;
-      }
-      .footer-last {
-        padding-left: 0;
-      }
-      .footer-bottom-section .footer-last div {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 5px;
-      }
+  .footer-bottom-section .footer-last div {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
   }
+}
