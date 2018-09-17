@@ -1,0 +1,186 @@
+.ads-mobile {
+    display: none;
+    margin-top: 30px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .ads-mobile div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .adress-hours .city {
+    font-size: 18px;
+  }
+  .adress, .hours {
+    font-size: 16px;
+  }
+  .main-picture {
+    position: relative;
+  }
+  .main-picture img {
+    max-width: 100%;
+  }
+  .main-picture button {
+    /* background: #1A1ABB;
+    width: 201px;
+    height: 69px;
+    position: absolute;
+    color: white;
+    font-size: 38px;
+    border: none; 
+    transition: all 0.5s;
+    cursor: pointer;
+    outline: none;
+    left: 585px;
+    top: 600px; */
+    background: #1A1ABB;
+    width: 201px;
+    height: 69px;
+    position: absolute;
+    color: white;
+    font-size: 38px;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+    outline: none;
+    left: 7%;
+    bottom: 15%;
+  }
+  .main-picture button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .main-picture button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    z-index: 1;
+  }
+  .main-picture button:hover span {
+    padding-right: 25px;
+  }
+  .main-picture button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .content-wrapper {
+    /* width: 728px; */
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+  }
+  .content-wrapper .text {
+    text-align: left;
+  }
+  .content-wrapper .picture {
+    margin-top: 50px;
+    /* display: flex; */
+  }
+  .content-wrapper .picture img {
+    /* max-width: 70%; */
+    max-width: 100%;
+    text-align: left;
+  }
+  .topics-container {
+    padding-top: 60px;
+  }
+  .text-container .text {
+    font-size: 22px;
+  }
+  .topic-wrapper {
+    display: flex;
+    position: relative;
+  }
+  .topic-wrapper .title {
+    font-weight: 600;
+    width: 25%;
+    text-align: left;
+    margin-right: 20px;
+    font-size: 24px;
+  }
+  .topic-wrapper .text {
+    width: 75%;
+    text-align: left;
+    position: relative;
+    font-size: 18px;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    background: #ede9e9;
+    padding-right: 150px;
+  }
+  .main-wrapper {
+    width: 70%;
+    background: #ffffff;
+  }
+  .maps-container {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  .maps-adress {
+    width: 50%
+  }
+  .maps-img img {
+    max-width: 90%;
+    cursor: pointer;
+  }
+  .adress-hours {
+    padding-top: 20px;
+  }
+  .city {
+    position: relative;
+  }
+  .adress-hours .city:after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+    right: 30px;
+    height: 0.5em;
+    border-top: 1px solid #DBD8D8;
+    z-index: 1;
+  }
+  .adress-hours .adress {
+    padding-top: 25px;
+  }
+  .adress-hours .hours {
+    padding-top: 15px;
+  }
+
+.box-wrapper {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+  .box-wrapper .links {
+    height: 200px;
+  }
+  .box-wrapper .ads {
+    height: 70px;
+  }
+  .ads div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .links div {
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+  }
+  .grey-box {
+    background: #F8F8F8;
+    color: #524F4F;
+    max-width: 100%;
+    margin-top: 10px;
+  }

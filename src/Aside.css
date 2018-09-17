@@ -1,0 +1,135 @@
+.navigation {
+    background: #F4F0F0;
+    width: 30%;
+  }
+  .navigation-wrapper {
+    /* padding-left: 154px; */
+    padding-left: 117px;
+  }
+  .navigation-menu {
+    position: relative;
+  }
+  .nav li::before {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-top: 1px solid #DBD8D8;
+    z-index: 1;
+  }
+  .navigation-menu .title {
+    color: #C0BBBB;
+    text-transform: uppercase;
+    display: flex;
+    padding-bottom: 15px;
+    font-size: 12px;
+  
+  }
+  .navigation-menu li {
+    list-style-type: none;
+    position: relative;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .navigation-menu li div {
+    margin-left: 15px;
+    align-self: center;
+  }
+  .navigation-menu ul li:nth-child(1) {
+    /* color: #CAC7C7;
+    display: flex;
+    font-weight: 600; */
+    height: 50px;
+    /* color: black;
+    font-size: 16px; */
+  }
+  .navigation-menu li:last-child::before {
+    content: none;
+  }
+  .testimonials-contact {
+    margin-top: 70px;
+  }
+  .testimonials {
+    /* width: 204px; */
+    padding-right: 10px;
+  }
+  .e-mail {
+    word-wrap: break-word;
+  }
+  .title-wrapper {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .text-wrapper {
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 16px;
+    text-align: start;
+  }
+  .customer {
+    text-align: right;
+    font-size: 16px;
+  }
+  .contact {
+    margin-top: 100px;
+    padding-right: 10px;
+  }
+  .testimonials-contact .text {
+    font-weight: 600;
+  }
+  
+  .contacts-wrapper {
+    margin-bottom: 20px;
+    text-align: start;
+    font-style: italic;
+    font-size: 16px;
+  }
+  .social-media {
+    margin-top: 100px;
+    padding-right: 10px;
+  }
+  .circle.pinterest {
+    background: red;
+  }
+  .circle.twitter {
+    background: #5050EA;
+  }
+  .circle.instagram {
+    background: #E8B706;
+  }
+  .social-name {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+  }
+  .nav-wrapper li:hover {
+    background-color: #ffffff;
+    color: #0C0CD2;
+  }
+  .nav-wrapper ul {
+    margin: 0;
+    padding-left: 0px;
+    /* background: white; */
+  }
+  .navigation-menu.nav {
+    padding-top: 69px;
+  }
+  .social-name:nth-child(1){
+    margin-top: 8px;
+  }
+  .social li {
+    background: white;
+    margin-bottom: 2px;
+  }
+  .social .fa-facebook {
+    right: 7px;
+  }
