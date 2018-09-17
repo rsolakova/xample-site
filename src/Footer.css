@@ -190,3 +190,99 @@
     display: inline;
     font-style: normal
   }
+
+  @media only screen and (max-width: 75em) { 
+    .footer-container {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+  @media only screen and (max-width: 64em) { 
+    .footer-list-top div {
+      font-size: 10px;
+    }
+    .footer-list-top .text {
+      font-size: 12px;
+    }
+    .footer-last {
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 50em) { 
+    .footer-container {
+      flex-wrap: wrap;
+    }
+    .footer-list-top {
+      width: 50%;
+    }
+  }
+  @media (max-width: 30em) {
+    .footer-container {
+      display: block;
+     }
+     .footer-list-header {
+      font-size: 20px;
+      margin-bottom: 10px;
+     }
+     .footer {
+      width: 100%;
+    }
+    .footer-container {
+      display: block;
+    }
+    .flex-rw {
+      width: 100%;
+    }
+    .footer-list-header {
+      font-size: 12px;
+    }
+    .footer-list-header.products {
+      padding-right: 140px;
+    }
+    .footer-list-header.books {
+      padding-right: 140px;
+    }
+    .footer-list-top {
+      width: 100%;
+      justify-content: center;
+    }
+    .col-first {
+      margin-right: 20px;
+      }
+      .footer-list-anchor {
+        font-size: 1.2em;
+      }
+      .footer-social-connect {
+        font-size: 2.4em;
+      }
+      .footer-social-overlap > a {
+        font-size: 2.24em;
+      }
+      .footer-list-top.sign {
+        text-align: left;
+      }
+      .footer-list-top.sign .text {
+        margin-right: 17px;
+      }
+      .footer-bottom-wrapper {
+        font-size: 1.3em;
+      }
+      .col-second {
+        margin-right: 80px;
+      }
+      .ourProducts .col-second {
+        margin-right: 44px;
+      }
+      .sign .input-social {
+        padding-left: 0;
+        padding-top: 10px;
+      }
+      .footer-last {
+        padding-left: 0;
+      }
+      .footer-bottom-section .footer-last div {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+      }
+  }
