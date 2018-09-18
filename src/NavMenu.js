@@ -11,14 +11,30 @@ export default class NavMenu extends Component {
                     <div className="nav-wrapper">
                         <div className='title'>Navigation</div>
                         <ul>
-                            <li className='active'><div>About us</div></li>
-                            <li><div>Webinars</div></li>
-                            <li><div>Ambassadors</div></li>
-                            <li><div>Testimonials</div></li>
-                            <li><div>Blog</div></li>
-                            <li><div>Forum</div></li>
-                            <li><div>Public galerry</div></li>
-                            <li><div>FAQ</div></li>
+                            <li className='active'>
+                                <a>About us</a>
+                            </li>
+                            <li>
+                                <a>Webinars</a>
+                            </li>
+                            <li>
+                                <a>Ambassadors</a>
+                            </li>
+                            <li>
+                                <a>Testimonials</a>
+                            </li>
+                            <li>
+                                <a>Blog</a>
+                            </li>
+                            <li>
+                                <a>Forum</a>
+                            </li>
+                            <li>
+                                <a>Public galerry</a>
+                            </li>
+                            <li>
+                                <a>FAQ</a>
+                            </li>
                         </ul>
                     </div>
                 </nav>

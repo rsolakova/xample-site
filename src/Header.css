@@ -4,7 +4,7 @@
   z-index: 2;
 }
 .site-header {
-    background:  #006AB3;
+    background: #006AB3;
     color: white;
     display: flex;
     align-items: center;
@@ -17,7 +17,7 @@
 }
 .white .fa {
   font-size: 15px;
-  color: blue;
+  color: #006AB3;
 }
 .white .actions .fa {
   margin-right: 5px;
@@ -73,7 +73,9 @@
 }
 .hamburger-menu-container .navigation-menu.menu {
   width: 300px;
+  transition: all 0.9s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
 }
+
 .hamburger-social-icons .circle {
   font-size: 20px;
   display: flex;
@@ -104,9 +106,15 @@
 .hamburger-menu-container {
   position: relative;
 }
+.hamburger-social-icons .circle.pinterest {
+  background-color: #E23B3B;
+}
+.hamburger-social-icons .circle.twitter {
+  background-color: #2FB7FF;
+}
 .menu .nav-wrapper li:hover {
   background-color: #F8F8F8;
-  color: #0C0CD2;
+  color: #006AB3;
 }
 .navigation-menu .nav-wrapper.opened-menu {
   padding-left: 40px;
@@ -128,6 +136,9 @@
   text-decoration: none;
   padding: 20px;
 }
+.user-account a {
+  padding-left: 0px;
+}
 .actions {
   margin-left: auto;
   display: flex;
@@ -137,17 +148,26 @@
 .actions .fa-icons {
   margin-right: 35px;
 }
-.actions div {
+.actions a {
   padding-left: 15px;
   cursor: pointer;
   font-size: 14px;
+}
+.action-container a {
+  padding-left: 0px;
+}
+.user-account .fa-shopping-cart {
+  padding-left: 20px;
+}
+.user-account a {
+  padding-left: 0px;
 }
 .active.hamburger-open {
   background: #F8F8F8;
 }
 .button-shopping {
   width: 82px;
-  background-color: #25C925;
+  background-color: #7EB657;
   margin-left: 20px;
   color: white;
   border: none;
@@ -158,9 +178,6 @@
 }
 .actions .fa {
   margin-right: 5px;
-}
-.actions .fa-shopping-cart {
-  padding-left: 0;
 }
 .actions .text {
   display: inline-block;
@@ -180,11 +197,14 @@
   align-self: center;
 }
 .white .fa-icons:not(.nohover):hover {  
-  border-top: 4px solid blue;
-  border-bottom: 4px solid blue;
-  padding: 6px 0; 
+  color: #006AB3;
 }
-.blue .actions div:not(.fa-shopping-cart):hover {
+.blue .actions a:not(.fa-shopping-cart):hover {
+  webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.blue .actions .user-account:hover {
   webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);

@@ -17,7 +17,8 @@ body {
   font-family: sans-serif;
   font: 11px "Open Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
+  color: #111111;
 	margin: auto;
   display: flex;
   flex-flow: column nowrap;
@@ -48,12 +49,12 @@ a {
 /*Class for active section of menu*/
 .active {
   background: white;
-  color: #0C0CD2;
+  color: #006AB3;
 }
 /*Circle for the social icons because in font awesome they are different */
 .circle {
   display: inline-block;
-  background: blue;
+  background: #4E80B1;
   border-radius: 50%;
   width: 36px;
   height: 36px;

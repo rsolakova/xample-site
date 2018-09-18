@@ -1,5 +1,5 @@
 .navigation {
-    background: #F4F0F0;
+    background: #F8F8F8;
     width: 30%;
   }
   .navigation-wrapper {
@@ -15,14 +15,14 @@
     left: 0;
     right: 0;
     height: 0.5em;
-    border-top: 1px solid #DBD8D8;
+    border-top: 1px solid #E0E0E0;
     z-index: 1;
   }
   .navigation-menu .title {
-    color: #C0BBBB;
+    color: #959595;
     text-transform: uppercase;
     display: flex;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     font-size: 12px;
   }
   .navigation-menu li {
@@ -34,7 +34,7 @@
     display: flex;
     cursor: pointer;
   }
-  .navigation-menu li div {
+  .navigation-menu li a {
     margin-left: 15px;
     align-self: center;
   }
@@ -56,8 +56,8 @@
   .title-wrapper {
     text-transform: uppercase;
     font-size: 12px;
-    color: grey;
-    margin-bottom: 10px;
+    color: #959595;
+    margin-bottom: 20px;
     display: flex;
   }
   .text-wrapper {
@@ -87,6 +87,13 @@
     margin-top: 100px;
     padding-right: 10px;
   }
+  .social-media .circle {
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+  .social-media .social-name {
+    margin-left: 20px;
+  }
   .social .fa {
   margin-right: 5px;
   color: black;
@@ -96,23 +103,26 @@
   right: 5px;
   top: 8px;
   }
+  .social .title {
+    padding-bottom: 0px;
+  }
   .circle.pinterest {
-    background: red;
+    background: #E23B3B;
   }
   .circle.twitter {
-    background: #5050EA;
+    background: #2FB7FF;
   }
   .circle.instagram {
-    background: #E8B706;
+    background: #FFA700;
   }
   .social-name {
     display: inline-block;
     vertical-align: top;
-    margin-top: 10px;
+    margin-top: 16px;
   }
   .nav-wrapper li:hover {
     background-color: #ffffff;
-    color: #0C0CD2;
+    color: #006AB3;
   }
   .nav-wrapper ul {
     margin: 0;

@@ -16,13 +16,62 @@ export default class SocialMedia extends Component {
                             <div className='title'>Follow us</div>
                         </div>
                         <ul>
-                            <li><div><div className="circle fb"><div className="fa fa-facebook"></div></div><div className="social-name">Facebook</div></div></li>
-                            <li><div><div className="circle pinterest"><div className="fa fa-pinterest"></div></div><div className="social-name">Pinterest</div></div></li>
-                            <li><div><div className="circle twitter"><div className="fa fa-twitter"></div></div><div className="social-name">Twitter</div></div></li>
-                            <li><div><div className="circle instagram"><div className="fa fa-instagram"></div></div><div className="social-name">Instagram</div></div></li>
-                            <li><div><div className="circle pinterest"><div className="fa fa-pinterest"></div></div><div className="social-name">Pinterest</div></div></li>
-                            <li><div><div className="circle twitter"><div className="fa fa-twitter"></div></div><div className="social-name">Twitter</div></div></li>
-                            <li><div><div className="circle instagram"><div className="fa fa-instagram"></div></div><div className="social-name">Instagram</div></div></li>
+                            <li>
+                                <div>
+                                    <div className="circle fb">
+                                        <div className="fa fa-facebook"></div>
+                                    </div>
+                                        <a className="social-name">Facebook</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div className="circle pinterest">
+                                        <div className="fa fa-pinterest"></div>
+                                    </div>
+                                    <a className="social-name">Pinterest</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div className="circle twitter">
+                                        <div className="fa fa-twitter"></div>
+                                    </div>
+                                    <a className="social-name">Twitter</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div className="circle instagram">
+                                        <div className="fa fa-instagram"></div>
+                                    </div>
+                                    <a className="social-name">Instagram</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div className="circle pinterest">
+                                        <div className="fa fa-pinterest"></div>
+                                    </div>
+                                    <a className="social-name">Pinterest</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div className="circle twitter">
+                                        <div className="fa fa-twitter"></div>
+                                    </div>
+                                    <a className="social-name">Twitter</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div className="circle instagram">
+                                        <div className="fa fa-instagram"></div>
+                                    </div>
+                                    <a className="social-name">Instagram</a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </nav>

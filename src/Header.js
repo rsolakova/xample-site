@@ -30,54 +30,70 @@ export default class Header extends Component {
                 <header className="site-header blue">
                     <nav className="header-container">
                         <ul>
-                            <li><div className="fa fa-ban"></div>No sales tax outside NY state</li>
-                            <li><div className="fa fa-truck"></div>FREE shiping on all +49$</li>
+                            <li>
+                                <div className="fa fa-ban"></div>No sales tax outside NY state
+                            </li>
+                            <li>
+                                <div className="fa fa-truck"></div>FREE shiping on all +49$
+                            </li>
                         </ul>
                     </nav>
                     <div className="actions">
-                        <div>service@example.com</div>
-                        <div>888.216.6400</div>
-                        <div>Support</div>
-                        <div>Order status</div>
-                        <div className="user-account"><div className="fa fa-shopping-cart"></div>Your account</div>
-                        <button className='button-shopping'><div className="fa fa-shopping-cart"></div>Cart</button>
+                        <a>service@example.com</a>
+                        <a>888.216.6400</a>
+                        <a>Support</a>
+                        <a>Order status</a>
+                        <div className="user-account">
+                            <div className="fa fa-shopping-cart"></div>
+                            <a>Your account</a>
+                        </div>
+                        <button className='button-shopping'>
+                            <div className="fa fa-shopping-cart"></div>Cart
+                        </button>
                     </div>
                 </header>
                 <div className="site-header white">
                     <div className="header-container logo">
                         <div className='logo-wrapper'>
-                            <div className="fa fa-globe"></div><div className='site-name'>xample site</div>
+                            <div className="fa fa-globe"></div>
+                            <div className='site-name'>xample site</div>
                         </div>
                     </div>
                     <div className="actions">
                         <div className="action-container">
                             <div className="fa-icons">
-                                <div className="fa fa-book"></div><div className='text'>Photo books</div>
+                                <div className="fa fa-book"></div>
+                                <a className='text'>Photo books</a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
-                                <div className="fa fa-print"></div><div className='text'>Photo prints</div>
+                                <div className="fa fa-print"></div>
+                                <a className='text'>Photo prints</a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
-                                <div className="fa fa-image"></div><div className='text'>Wall Decor</div>
+                                <div className="fa fa-image"></div>
+                                <a className='text'>Wall Decor</a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
-                                <div className="fa fa-file"></div><div className='text'>Cards</div>
+                                <div className="fa fa-file"></div>
+                                <a className='text'>Cards</a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
-                                <div className="fa fa-calendar"></div><div className='text'>Calendars</div>
+                                <div className="fa fa-calendar"></div>
+                                <a className='text'>Calendars</a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
-                                <div className="fa fa-star"></div><div className='text'>Occasions</div>
+                                <div className="fa fa-star"></div>
+                                <a className='text'>Occasions</a>
                             </div>
                         </div>
                     </div>
@@ -105,25 +121,47 @@ export default class Header extends Component {
                                         <div className="nav-wrapper opened-menu">
                                             <div className='title'>Navigation</div>
                                             <ul>
-                                                <li className='active hamburger-open'><div>About us</div></li>
-                                                <li><div>Webinars</div></li>
-                                                <li><div>Ambassadors</div></li>
-                                                <li><div>Testimonials</div></li>
-                                                <li><div>Blog</div></li>
-                                                <li><div>Forum</div></li>
-                                                <li><div>Public galerry</div></li>
-                                                <li><div>FAQ</div></li>
+                                                <li className='active hamburger-open'>
+                                                    <a>About us</a>
+                                                </li>
+                                                <li>
+                                                    <a>Webinars</a>
+                                                </li>
+                                                <li>
+                                                    <a>Ambassadors</a>
+                                                </li>
+                                                <li>
+                                                    <a>Testimonials</a>
+                                                </li>
+                                                <li>
+                                                    <a>Blog</a>
+                                                </li>
+                                                <li>
+                                                    <a>Forum</a>
+                                                </li>
+                                                <li>
+                                                    <a>Public galerry</a>
+                                                </li>
+                                                <li>
+                                                    <a>FAQ</a>
+                                                </li>
                                             </ul>
                                         </div>
                                         <div className='hamburger-social-icons'>
-                                            <div className='social-icon fb'>
-                                                <div className="circle fb"><div className="fa fa-facebook"></div></div>
+                                            <div className='social-icon'>
+                                                <div className="circle fb">
+                                                    <div className="fa fa-facebook"></div>
+                                                </div>
                                             </div>
-                                            <div className='social-icon twitter'>
-                                                <div className="circle fb"><div className="fa fa-twitter"></div></div>
+                                            <div className='social-icon'>
+                                                <div className="circle pinterest">
+                                                    <div className="fa fa-pinterest"></div>
+                                                </div>
                                             </div>
-                                            <div className='social-icon pinterest'>
-                                                <div className="circle fb"><div className="fa fa-pinterest"></div></div>
+                                            <div className='social-icon'>
+                                                <div className="circle twitter">
+                                                    <div className="fa fa-twitter"></div>
+                                                </div>
                                             </div>
                                         </div>
                                     </nav>

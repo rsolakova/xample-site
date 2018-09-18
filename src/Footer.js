@@ -14,7 +14,9 @@ export default class Footer extends Component {
                             <h4 className="footer-list-header products">Our Products</h4>
                             <div className="col-container">
                                 <div className='col-first'>
-                                    <li><a className="generic-anchor footer-list-anchor">Photo prints</a></li>
+                                    <li>
+                                        <a className="generic-anchor footer-list-anchor">Photo prints</a>
+                                    </li>
                                     <li><a className="generic-anchor footer-list-anchor">Photo books</a></li>
                                     <li><a className="generic-anchor footer-list-anchor">Fine art books</a></li>
                                     <li><a className="generic-anchor footer-list-anchor">Metal prints</a></li>
@@ -71,17 +73,17 @@ export default class Footer extends Component {
                                 <input type='text' />
                                 <div className='small-text'>We value your privacy </div>
                                 <div className='social-media'>
-                                    <div className='social-icon fb'>
-                                        <div className="circle fb"><div className="fa fa-facebook"></div></div>
+                                    <div className='social-icon'>
+                                        <button className="circle fb"><div className="fa fa-facebook"></div></button>
                                     </div>
-                                    <div className='social-icon twitter'>
-                                        <div className="circle fb"><div className="fa fa-twitter"></div></div>
+                                    <div className='social-icon'>
+                                        <button className="circle twitter"><div className="fa fa-twitter"></div></button>
                                     </div>
-                                    <div className='social-icon pinterest'>
-                                        <div className="circle fb"><div className="fa fa-pinterest"></div></div>
+                                    <div className='social-icon'>
+                                        <button className="circle pinterest"><div className="fa fa-pinterest"></div></button>
                                     </div>
-                                    <div className='social-icon google'>
-                                        <div className="circle fb"><div className="fa fa-google"></div></div>
+                                    <div className='social-icon'>
+                                        <button className="circle google"><div className="fa fa-google"></div></button>
                                     </div>
                                 </div>
                             </div>
@@ -89,21 +91,20 @@ export default class Footer extends Component {
                     </div>
                     <section className="footer-bottom-section flex-rw">
                         <div className='footer-last'>
-                            <div>Pricing</div>
-                            <div>About us</div>
-                            <div>Invite friends</div>
-                            <div>Blog</div>
-                            <div>FAQS</div>
-                            <div>Forums</div>
-                            <div>Testimonials</div>
-                            <div>Public gallery</div>
-                            <div>Terms and conditions</div>
-                            <div>Return policy</div>
-                            <div>Affiliate program</div>
+                            <a>Pricing</a>
+                            <a>About us</a>
+                            <a>Invite friends</a>
+                            <a>Blog</a>
+                            <a>FAQS</a>
+                            <a>Forums</a>
+                            <a>Testimonials</a>
+                            <a>Public gallery</a>
+                            <a>Terms and conditions</a>
+                            <a>Return policy</a>
+                            <a>Affiliate program</a>
                         </div>
                     </section>
-                    <section className="footer-bottom-section flex-rw">
-                    </section>
+                    <section className="footer-bottom-section flex-rw"></section>
                 </footer>
             </div>
         )
