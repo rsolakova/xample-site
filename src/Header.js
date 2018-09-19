@@ -6,23 +6,28 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default class Header extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            showMenu: false
-        }
+        this.state = props.state;
+        // this.state = {
+        //     showMenu: false
+        // }
         this.showMenu = this.showMenu.bind(this);
         this.closeMenu = this.closeMenu.bind(this);
     }
     showMenu(event) {
         event.preventDefault();
-
-        this.setState({ showMenu: true }, () => {
-            document.addEventListener('click', this.closeMenu);
-        });
+        this.props.setShowMenu(true);
+        document.addEventListener('click', this.closeMenu);
+        // this.setState({ showMenu: true }, () => {
+        //     document.addEventListener('click', this.closeMenu);
+        // });
+        // document.getElementsByClassName('navigation-menu.menu').addClass('animation');
     }
     closeMenu() {
-        this.setState({ showMenu: false }, () => {
-            document.removeEventListener('click', this.closeMenu);
-        });
+        this.props.setShowMenu(false);
+        document.removeEventListener('click', this.closeMenu);
+        // this.setState({ showMenu: false }, () => {
+        //     document.removeEventListener('click', this.closeMenu);
+        // });
     }
     render() {
         return (
@@ -111,67 +116,7 @@ export default class Header extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="hamburger-menu-container">
-                    {
-                        this.state.showMenu
-                            ? (
-                                <Fragment>
-                                    <div className="nav-overlay" />
-                                    <nav className="navigation-menu menu">
-                                        <div className="nav-wrapper opened-menu">
-                                            <div className='title'>Navigation</div>
-                                            <ul>
-                                                <li className='active hamburger-open'>
-                                                    <a>About us</a>
-                                                </li>
-                                                <li>
-                                                    <a>Webinars</a>
-                                                </li>
-                                                <li>
-                                                    <a>Ambassadors</a>
-                                                </li>
-                                                <li>
-                                                    <a>Testimonials</a>
-                                                </li>
-                                                <li>
-                                                    <a>Blog</a>
-                                                </li>
-                                                <li>
-                                                    <a>Forum</a>
-                                                </li>
-                                                <li>
-                                                    <a>Public galerry</a>
-                                                </li>
-                                                <li>
-                                                    <a>FAQ</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className='hamburger-social-icons'>
-                                            <div className='social-icon'>
-                                                <div className="circle fb">
-                                                    <div className="fa fa-facebook"></div>
-                                                </div>
-                                            </div>
-                                            <div className='social-icon'>
-                                                <div className="circle pinterest">
-                                                    <div className="fa fa-pinterest"></div>
-                                                </div>
-                                            </div>
-                                            <div className='social-icon'>
-                                                <div className="circle twitter">
-                                                    <div className="fa fa-twitter"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </nav>
-                                </Fragment>
-                            )
-                            : (
-                                null
-                            )
-                    }
-                </div>
+                {/* { this.state.showMenu ? (<div className="nav-overlay" />) : null } */}
             </div>
         )
     }

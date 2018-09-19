@@ -1,12 +1,14 @@
 .main-wrapper {
   width: 70%;
   background: #ffffff;
+  margin-right: 150px;
 }
 .main-container {
   display: flex;
   flex-direction: row;
   background: #F8F8F8;
-  padding-right: 150px;
+  /* padding-right: 150px; */
+  position: relative;
 }
 .main-picture {
   position: relative;
@@ -57,7 +59,7 @@
   background: #F8F8F8;
   color: #524F4F;
   max-width: 100%;
-  margin-top: 10px;
+  margin-top: 17px;
 }
 .ads-mobile {
   display: none;
@@ -89,8 +91,8 @@
     right: 0;
   }
   .content-wrapper {
-    padding-top: 60px;
-    padding-left: 60px;
+    padding-top: 80px;
+    padding-left: 80px;
     padding-right: 60px;
     display: flex;
   }
@@ -98,7 +100,7 @@
     text-align: left;
   }
   .content-wrapper .picture {
-    margin-top: 50px;
+    margin-top: 80px;
   }
   .content-wrapper .picture img {
     max-width: 100%;
@@ -113,6 +115,8 @@
   .topic-wrapper {
     display: flex;
     position: relative;
+    margin-bottom: 100px;
+    margin-top: 30px;
   }
   .topic-wrapper .title {
     font-weight: 600;
@@ -127,9 +131,17 @@
     position: relative;
     font-size: 18px;
   }
+.topic-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.5em;
+    border-top: 1px solid #DBD8D8;
+    margin-top: -27px;
+    z-index: 1;
+  }
   .maps-container {
     display: flex;
-    padding-top: 80px;
     padding-bottom: 100px;
   }
   .maps-adress {
@@ -174,8 +186,8 @@
   }
 
   @media only screen and (max-width: 75em) { 
-    .main-container {
-      padding-right: 50px;
+    .main-wrapper {
+      margin-right: 50px;
     }
   }
   @media only screen and (max-width: 64em) { 
@@ -199,8 +211,8 @@
     .main-picture button {
       font-size: 30px;
     }
-    .main-container {
-      padding-right: 0;
+    .main-wrapper {
+      margin-right: 0;
     }
     .content-wrapper {
       width: 100%;

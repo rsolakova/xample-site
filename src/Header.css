@@ -60,6 +60,9 @@
   font-size: 40px;
   color: blue;
 }
+.hamburger-wrapper {
+  position: relative;
+}
 .hamburger-wrapper .fa {
   font-size: 25px;
   padding-left: 30px;
@@ -68,14 +71,55 @@
 .hamburger-social-icons {
   display: flex;
   justify-content: flex-start;
-  padding-left: 36px;
-  padding-top: 40px;
+  padding-left: 50px;
+  padding-top: 80px;
 }
+.hamburger-menu-container {
+  transition: all 0.6s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+  transform: translateY(-2em); 
+  opacity: 0; 
+  visibility: hidden;
+  z-index: 1;
+}
+.hamburger-menu-container.animation {
+  transform: translateY(0%);
+  opacity: 1;
+  visibility: visible;
+}
+/* .hamburger-menu-container .navigation-menu.menu.animation {
+  transform: translateY(0%);
+  opacity: 1;
+} */
 .hamburger-menu-container .navigation-menu.menu {
   width: 300px;
-  transition: all 0.9s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+  /* transition: all 0.9s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+  transform: translateY(-2em); 
+  opacity: 0;  */
+  /* -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+   -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+       transition: all .25s ease; */
+  /* animation: load 1s forwards;
+  display: block;
+  opacity: 0; */
 }
-
+/* @keyframes load {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+.navigation-menu.menu .nav-wrapper {
+  /* transition: all 0.9s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s; */
+    /* -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+   -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+       transition: all .25s ease;  */
+}
 .hamburger-social-icons .circle {
   font-size: 20px;
   display: flex;
@@ -84,8 +128,9 @@
   color: white;
 }
 .hamburger-social-icons .social-icon {
-  padding-left: 10px;
+  /* padding-left: 10px; */
   cursor: pointer;
+  padding-right: 18px;
 }
 .button-hamburger {
   display: none;
@@ -121,9 +166,13 @@
 }
 .nav-wrapper.opened-menu .title {
   padding-left: 25px;
+  padding-bottom: 30px;
 }
 .nav-wrapper.opened-menu li::before {
   content: none;
+}
+.nav-wrapper.second {
+  padding-top: 92px;
 }
 .user-account ul {
   display: none;

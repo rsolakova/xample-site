@@ -13,13 +13,87 @@ import Main from './Main';
 import Footer from './Footer';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showMenu: false
+    }
+    this.setShowOpen = this.setShowOpen.bind(this);
+  }
+  setShowOpen(value) {
+    this.setState({ showMenu: value });
+  }
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header setShowMenu={this.setShowOpen} />
         <div className='main-container'>
           <Nav />
           <Main />
+          {this.state.showMenu ? (<div className="nav-overlay" />) : null}
+          <div className={this.state.showMenu ? "hamburger-menu-container animation" : "hamburger-menu-container"}>
+            {/* <nav className={this.state.showMenu ? "navigation-menu menu animation" : "navigation-menu menu"}> */}
+            <nav className="navigation-menu menu">
+              {/* <nav className="navigation-menu menu "> */}
+              <div className="nav-wrapper opened-menu">
+                <div className='title'>Navigation</div>
+                <ul>
+                  <li className='active hamburger-open'>
+                    <a>About us</a>
+                  </li>
+                  <li>
+                    <a>Webinars</a>
+                  </li>
+                  <li>
+                    <a>Ambassadors</a>
+                  </li>
+                  <li>
+                    <a>Testimonials</a>
+                  </li>
+                  <li>
+                    <a>Blog</a>
+                  </li>
+                </ul>
+              </div>
+              <div className="nav-wrapper opened-menu second">
+                <div className='title'>Navigation</div>
+                <ul>
+                  <li className='active hamburger-open'>
+                    <a>About us</a>
+                  </li>
+                  <li>
+                    <a>Webinars</a>
+                  </li>
+                  <li>
+                    <a>Ambassadors</a>
+                  </li>
+                  <li>
+                    <a>Testimonials</a>
+                  </li>
+                  <li>
+                    <a>Blog</a>
+                  </li>
+                </ul>
+              </div>
+              <div className='hamburger-social-icons'>
+                <div className='social-icon'>
+                  <div className="circle fb">
+                    <div className="fa fa-facebook"></div>
+                  </div>
+                </div>
+                <div className='social-icon'>
+                  <div className="circle pinterest">
+                    <div className="fa fa-pinterest"></div>
+                  </div>
+                </div>
+                <div className='social-icon'>
+                  <div className="circle twitter">
+                    <div className="fa fa-twitter"></div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
         </div>
         <Footer />
       </div>
