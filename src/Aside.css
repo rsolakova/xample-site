@@ -1,202 +1,220 @@
 .navigation {
-    background: #F8F8F8;
+    background: #f8f8f8;
     width: 30%;
-  }
-  .navigation-wrapper {
+}
+.navigation-wrapper {
     padding-left: 117px;
-  }
-  .navigation-menu {
+}
+.navigation-menu {
     position: relative;
-  }
-  .nav li::before {
+}
+.nav li::before {
     content: "";
     position: absolute;
     bottom: -8px;
     left: 0;
     right: 0;
     height: 0.5em;
-    border-top: 1px solid #E0E0E0;
+    border-top: 1px solid #e0e0e0;
     z-index: 1;
-  }
-  .navigation-menu .title {
+}
+.navigation-menu .title {
     color: #959595;
     text-transform: uppercase;
     display: flex;
     padding-bottom: 20px;
     font-size: 12px;
-  }
-  .navigation-menu li {
+}
+.navigation-menu li {
     list-style-type: none;
     position: relative;
     height: 56px;
     font-size: 16px;
-    font-weight: 600;
     display: flex;
     cursor: pointer;
-  }
-  .navigation-menu li a {
+}
+.navigation-menu li a {
     margin-left: 15px;
     align-self: center;
-  }
-  .navigation-menu ul li:nth-child(1) {
+}
+.navigation-menu ul li:nth-child(1) {
     height: 50px;
-  }
-  .navigation-menu li:last-child::before {
+}
+.navigation-menu li:last-child::before {
     content: none;
-  }
-  .testimonials-contact {
+}
+.testimonials-contact {
     margin-top: 70px;
-  }
-  .testimonials {
+}
+.testimonials {
     padding-right: 10px;
-  }
-  .e-mail {
+}
+.e-mail {
     word-wrap: break-word;
-  }
-  .title-wrapper {
+}
+.title-wrapper {
     text-transform: uppercase;
     font-size: 12px;
     color: #959595;
     margin-bottom: 20px;
     display: flex;
-  }
-  .text-wrapper {
+}
+.text-wrapper {
     margin-bottom: 10px;
     font-style: italic;
     font-size: 16px;
     text-align: start;
-  }
-  .customer {
+    width: 80%;
+}
+.customer {
     text-align: right;
     font-size: 16px;
-  }
-  .contact {
+}
+.contact {
     margin-top: 100px;
     padding-right: 10px;
-  }
-  .testimonials-contact .text {
+}
+.testimonials-contact .text {
     font-weight: 600;
-  }
-  .contacts-wrapper {
+}
+.contacts-wrapper {
     margin-bottom: 20px;
     text-align: start;
     font-style: italic;
     font-size: 16px;
-  }
-  .social-media {
+}
+.social-media {
     margin-top: 100px;
     padding-right: 10px;
-  }
-  .social-media .circle {
+}
+.social-media .circle {
     margin-left: 12px;
     margin-top: 10px;
-  }
-  .social-media .social-name {
+}
+.social-media .social-name {
     margin-left: 20px;
-  }
-  .social .fa {
-  margin-right: 5px;
-  color: black;
-  font-size: 20px;
-  vertical-align: center;
-  position: absolute;
-  right: 5px;
-  top: 8px;
-  }
-  .social .title {
+}
+.social .fa {
+    margin-right: 5px;
+    color: black;
+    font-size: 20px;
+    vertical-align: center;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+}
+.social .title {
     padding-bottom: 0px;
-  }
-  .circle.pinterest {
-    background: #E23B3B;
-  }
-  .circle.twitter {
-    background: #2FB7FF;
-  }
-  .circle.instagram {
-    background: #FFA700;
-  }
-  .social-name {
+}
+.circle.pinterest {
+    background: #e23b3b;
+}
+.circle.twitter {
+    background: #2fb7ff;
+}
+.circle.instagram {
+    background: #ffa700;
+}
+.social-name {
     display: inline-block;
     vertical-align: top;
     margin-top: 16px;
-  }
-  .nav-wrapper li:hover {
+}
+.nav-wrapper {
+    font-family: sans-serif;
+}
+.nav-wrapper li:hover {
     background-color: #ffffff;
-    color: #006AB3;
-  }
-  .nav-wrapper ul {
+    color: #006ab3;
+}
+.nav-wrapper ul {
     margin: 0;
     padding-left: 0px;
-  }
-  .navigation-menu.nav {
+}
+.navigation-menu.nav {
     padding-top: 69px;
-  }
-  .social-name:nth-child(1){
+}
+.social-name:nth-child(1) {
     margin-top: 8px;
-  }
-  .social li {
+}
+.social li {
     background: white;
     margin-bottom: 2px;
-  }
-  .social .fa-facebook {
+}
+.social .fa-facebook {
     right: 7px;
-  }
+}
 
-  @media only screen and (max-width: 75em) { 
+@media only screen and (max-width: 75em) {
     .navigation-wrapper {
-      padding-left: 50px;
+        padding-left: 50px;
     }
-  }
-  @media only screen and (max-width: 64em) { 
+}
+@media only screen and (max-width: 64em) {
     .navigation-menu li div {
-      margin-left: 3px;
+        margin-left: 3px;
     }
-  }
-  @media (max-width: 40em) { 
+}
+@media (max-width: 40em) {
     .navigation-wrapper {
-      padding-left: 10px;
+        padding-left: 10px;
     }
     .social-name {
-      font-size: 13px;
+        font-size: 13px;
     }
-  }
-  @media (max-width: 30em) {
+}
+@media (max-width: 30em) {
     .social-media {
-      padding-right: 0;
-      margin-top: 50px;
-      margin-bottom: 50px;
+        padding-right: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .social-media .nav-wrapper {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .social-media ul {
-      width: 75%;
+        width: 75%;
     }
     .navigation-wrapper {
-      padding-left: 15px;
-      padding-right: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .navigation-menu.nav {
-      display: none;
+        display: none;
+    }
+    .navigation-menu .title {
+        font-size: 20px;
     }
     .hamburger-menu-container .navigation-menu.menu {
-      width: 100%;
+        width: 100%;
     }
     .testimonials-contact {
-      margin-top: 20px;
+        margin-top: 20px;
     }
     .contact {
-      margin-top: 50px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-name {
+        font-size: 20px;
     }
     .contact div {
-      text-align: center;
+        text-align: center;
     }
     .title-wrapper {
-      display: block;
+        display: block;
     }
-  }
+    .navigation-wrapper .title-wrapper {
+        font-size: 20px;
+    }
+    .text-wrapper {
+        font-size: 17px;
+    }
+    .contacts-wrapper {
+        font-size: 17px;
+    }
+}

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 export default class NavMenu extends Component {
     constructor(props) {
@@ -9,9 +9,9 @@ export default class NavMenu extends Component {
             <div>
                 <nav className="navigation-menu nav">
                     <div className="nav-wrapper">
-                        <div className='title'>Navigation</div>
+                        <div className="title">Navigation</div>
                         <ul>
-                            <li className='active'>
+                            <li className="active">
                                 <a>About us</a>
                             </li>
                             <li>
@@ -39,6 +39,6 @@ export default class NavMenu extends Component {
                     </div>
                 </nav>
             </div>
-        )
+        );
     }
 }

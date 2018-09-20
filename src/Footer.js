@@ -62,7 +62,7 @@ export default class Footer extends Component {
                                     <li><a className="generic-anchor footer-list-anchor">Stationery</a></li>
                                     <li><a className="generic-anchor footer-list-anchor">Baby Shower</a></li>
                                     <li><a className="generic-anchor footer-list-anchor">Thanks You</a></li>
-                                    <li><a className="generic-anchor footer-list-anchor">Save the Datey</a></li>
+                                    <li><a className="generic-anchor footer-list-anchor">Save the Date</a></li>
                                 </div>
                             </div>
                         </ul>
