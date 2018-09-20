@@ -123,6 +123,9 @@
 .hamburger-social-icons .circle.twitter {
     background-color: #2fb7ff;
 }
+.fa-bars {
+    color: #006AB3;
+}
 .menu .nav-wrapper li:hover {
     background-color: #f8f8f8;
     color: #006ab3;
