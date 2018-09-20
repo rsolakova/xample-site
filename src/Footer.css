@@ -6,9 +6,12 @@ footer {
 /* .footer-list-top {
     width: 25%;
 } */
+.footer-list-top {
+    padding-left: 0;
+}
 .footer-list-top .text {
     font-size: 16px;
-    width: 85%;
+    /* width: 85%; */
     text-align: left;
     /* font-weight: 600; */
     line-height: 26px;
@@ -32,15 +35,11 @@ footer {
     align-items: center;
     cursor: pointer;
 }
-.ourProducts {
+/* .ourProducts {
     padding-right: 65px;
-}
+} */
 .ourProducts .col-first {
-    margin-right: 55px;
-    width: 97%;
-}
-.col-container .col-first {
-    padding-right: 30px;
+    margin-right: 10px;
 }
 .footer .social-media .fa {
     font-size: 20px;
@@ -102,18 +101,9 @@ footer {
     padding-left: 0;
     padding-right: 150px;
 }
-.photo-books .col-first {
-    margin-right: 110px;
-}
-.card .col-container {
-    margin-right: 83px;
-}
+
 .footer-list-top .sign {
     text-align: left;
-}
-.footer-list-top.sign {
-    /* width: 65%; */
-    width: 31%
 }
 .footer-social-section {
     width: 100%;
@@ -121,6 +111,10 @@ footer {
     justify-content: space-around;
     position: relative;
     margin-top: 5px;
+}
+.footer-list-top {
+    width: 25%;
+    margin: 0 10px;
 }
 .footer-social-section::after {
     content: "";
@@ -178,12 +172,14 @@ footer {
     margin-bottom: 20px;
 }
 .footer-container {
+    display: -ms-flexbox;
     display: flex;
-    /* padding-left: 150px;
-  padding-right: 150px; */
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: -10px;
+    margin-right: -10px;
     padding-bottom: 73px;
+    width: 100%;
 }
 .generic-anchor {
     color: #878383;
@@ -213,32 +209,33 @@ footer {
 }
 .col-container {
     display: flex;
-    justify-content: space-between;
 }
 .flex-rw {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 .col-first {
     width: 50%;
+    margin-right: 10px;
 }
-.col-second {
+/* .col-second {
     width: 83%;
-}
+} */
 .cards .col-second {
     vertical-align: top;
 }
 
 @media only screen and (max-width: 75em) {
     .footer-container {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media only screen and (max-width: 64em) {
-    .footer-list-top div {
+    /* .footer-list-top div {
         font-size: 10px;
-    }
+    } */
     .footer-list-top .text {
         font-size: 12px;
     }
@@ -252,6 +249,7 @@ footer {
     }
     .footer-list-top {
         width: 50%;
+        margin: 0px;
     }
 }
 @media (max-width: 30em) {
@@ -263,9 +261,6 @@ footer {
     }
     .input-social .social-media .social-icon {
         margin-right: 17px;
-    }
-    .footer .social-media {
-        margin-left: -12px;
     }
     .footer-list-top.sign {
         width: 85%;
@@ -290,6 +285,7 @@ footer {
         padding-right: 0px;
         font-size: 20px;
         margin-bottom: 10px;
+        text-align: center;
     }
     /* .footer-list-header.products {
         padding-right: 140px;
@@ -301,14 +297,13 @@ footer {
         /* width: 100%; 
         justify-content: center;
         padding-left: 68px; */
-        width: 85%;
         /* display: flex; */
         /* flex-direction: column; */
         /* display: flex; */
+        width: 50%;
         -ms-flex-direction: column;
         flex-direction: column;
         align-items: center;
-        
     }
     .footer-list-top .text {
         line-height: 15px;
@@ -329,14 +324,14 @@ footer {
     .footer-social-connect {
         font-size: 2.4em;
     }
+    .footer .social-media {
+      justify-content: center;
+    }
     .footer-social-overlap > a {
         font-size: 2.24em;
     }
-    .footer-list-top.sign {
-        text-align: left;
-    }
     .footer-list-top.sign .text {
-        margin-right: 17px;
+       text-align: center;
     }
     .footer-bottom-wrapper {
         font-size: 1.3em;
@@ -345,9 +340,6 @@ footer {
         margin-right: 80px;
 
         width: 100%;
-    }
-    .ourProducts .col-second {
-        margin-right: 44px;
     }
     .sign .input-social {
         padding-left: 0;
@@ -361,6 +353,13 @@ footer {
     }
     .input-social .small-text {
         font-size: 10px;
+        text-align: center;
     }
-    
+    .footer-list-top li {
+      text-align: center;
+    }
+    .footer-list-top.sign {
+      text-align: center;
+      display: flex;
+    }
 }

@@ -56,7 +56,7 @@ export default class Footer extends Component {
                                     <li><a className="generic-anchor footer-list-anchor">Thanksgiving</a></li>
                                     <li><a className="generic-anchor footer-list-anchor">Classic</a></li>
                                     <li><a className="generic-anchor footer-list-anchor">Vintage Photo Cards</a></li>
-                                    <li><a className="generic-anchor footer-list-anchor">Invitations</a></li>
+                                    <li><a className="generic-anchor footer-list-anchor">Birthday/Party Invitations</a></li>
                                 </div>
                                 <div className="col-second">
                                     <li><a className="generic-anchor footer-list-anchor">Stationery</a></li>

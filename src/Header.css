@@ -254,15 +254,13 @@
     color: #006AB3;
   }
   .blue .actions a:not(.fa-shopping-cart):hover {
+    color: black;
+  }
+  /* .blue .actions .user-account:hover {
     webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-  }
-  .blue .actions .user-account:hover {
-    webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-  }
+  } */
   .button-shopping:hover {
     webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -332,6 +330,9 @@
     }
     .header-wrapper {
       position: relative;
+    }
+    .header-container .logo {
+        width: 100%;
     }
     .site-header .actions {
       flex-wrap: wrap;

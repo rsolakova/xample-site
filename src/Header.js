@@ -37,8 +37,7 @@ export default class Header extends Component {
                         <a>Support</a>
                         <a>Order status</a>
                         <div className="user-account">
-                            <div className="fa fa-shopping-cart" />
-                            <a>Your account</a>
+                            <a><div className="fa fa-shopping-cart" />Your account</a>
                         </div>
                         <button className="button-shopping">
                             <div className="fa fa-shopping-cart" />Cart
