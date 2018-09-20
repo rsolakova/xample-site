@@ -56,7 +56,7 @@ class App extends Component {
                             <div className="nav-wrapper opened-menu second">
                                 <div className="title">Navigation</div>
                                 <ul>
-                                    <li className="active hamburger-open">
+                                    <li className="hamburger-open">
                                         <a>About us</a>
                                     </li>
                                     <li>
