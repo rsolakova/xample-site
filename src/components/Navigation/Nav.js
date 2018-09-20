@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavMenu from "./NavMenu";
 import NavContact from "./NavContact";
 import SocialMedia from "./SocialMedia";
+import "./Aside.css";
 
 export default class Nav extends Component {
     constructor(props) {

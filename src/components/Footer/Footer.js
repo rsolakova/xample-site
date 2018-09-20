@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import "./Footer.css";
 
 export default class Footer extends Component {
     constructor(props) {

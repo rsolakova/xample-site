@@ -5,10 +5,10 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStroopwafel } from "@fortawesome/free-solid-svg-icons";
 
-import Header from "./Header";
-import Nav from "./Nav";
-import Main from "./Main";
-import Footer from "./Footer";
+import Header from "./components/Header/Header";
+import Nav from "./components/Navigation/Nav";
+import Main from "./components/Main/Main";
+import Footer from "./components/Footer/Footer";
 
 class App extends Component {
     constructor(props) {
