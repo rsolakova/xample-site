@@ -2,7 +2,6 @@ import React, { Component, Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Header.css";
 
-
 export default class Header extends Component {
     constructor(props) {
         super(props);
@@ -34,12 +33,14 @@ export default class Header extends Component {
                         </ul>
                     </nav>
                     <div className="actions">
-                        <a>service@example.com</a>
-                        <a>888.216.6400</a>
-                        <a>Support</a>
-                        <a>Order status</a>
+                        <a href="#">service@example.com</a>
+                        <a href="#">888.216.6400</a>
+                        <a href="#">Support</a>
+                        <a href="#">Order status</a>
                         <div className="user-account">
-                            <a><div className="fa fa-shopping-cart" />Your account</a>
+                            <a href="#">
+                                <div className="fa fa-shopping-cart" />Your account
+                            </a>
                         </div>
                         <button className="button-shopping">
                             <div className="fa fa-shopping-cart" />Cart
@@ -57,37 +58,49 @@ export default class Header extends Component {
                         <div className="action-container">
                             <div className="fa-icons">
                                 <div className="fa fa-book" />
-                                <a className="text">Photo books</a>
+                                <a href="#" className="text">
+                                    Photo books
+                                </a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
                                 <div className="fa fa-print" />
-                                <a className="text">Photo prints</a>
+                                <a href="#" className="text">
+                                    Photo prints
+                                </a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
                                 <div className="fa fa-image" />
-                                <a className="text">Wall Decor</a>
+                                <a href="#" className="text">
+                                    Wall Decor
+                                </a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
                                 <div className="fa fa-file" />
-                                <a className="text">Cards</a>
+                                <a href="#" className="text">
+                                    Cards
+                                </a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
                                 <div className="fa fa-calendar" />
-                                <a className="text">Calendars</a>
+                                <a href="#" className="text">
+                                    Calendars
+                                </a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
                                 <div className="fa fa-star" />
-                                <a className="text">Occasions</a>
+                                <a href="#" className="text">
+                                    Occasions
+                                </a>
                             </div>
                         </div>
                     </div>

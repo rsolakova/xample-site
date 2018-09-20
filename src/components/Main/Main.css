@@ -7,7 +7,6 @@
     display: flex;
     flex-direction: row;
     background: #f8f8f8;
-    /* padding-right: 150px; */
     position: relative;
 }
 .main-picture {
@@ -55,7 +54,7 @@
     transform: rotate(-45deg);
 }
 .close:hover {
-    background: #E0D2D2;
+    background: #e0d2d2;
 }
 .main-picture button span {
     cursor: pointer;
@@ -148,7 +147,6 @@
 }
 .topic-wrapper .title {
     font-weight: 600;
-    /* width: 25%; */
     width: 32%;
     text-align: left;
     margin-right: 20px;

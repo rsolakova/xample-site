@@ -30,26 +30,24 @@ class App extends Component {
                     <Main />
                     {this.state.showMenu ? <div className="nav-overlay" /> : null}
                     <div className={this.state.showMenu ? "hamburger-menu-container animation" : "hamburger-menu-container"}>
-                        {/* <nav className={this.state.showMenu ? "navigation-menu menu animation" : "navigation-menu menu"}> */}
                         <nav className="navigation-menu menu">
-                            {/* <nav className="navigation-menu menu "> */}
                             <div className="nav-wrapper opened-menu">
                                 <div className="title">Navigation</div>
                                 <ul>
                                     <li className="active hamburger-open">
-                                        <a>About us</a>
+                                        <a href="#">About us</a>
                                     </li>
                                     <li>
-                                        <a>Webinars</a>
+                                        <a href="#">Webinars</a>
                                     </li>
                                     <li>
-                                        <a>Ambassadors</a>
+                                        <a href="#">Ambassadors</a>
                                     </li>
                                     <li>
-                                        <a>Testimonials</a>
+                                        <a href="#">Testimonials</a>
                                     </li>
                                     <li>
-                                        <a>Blog</a>
+                                        <a href="#">Blog</a>
                                     </li>
                                 </ul>
                             </div>
@@ -57,19 +55,19 @@ class App extends Component {
                                 <div className="title">Navigation</div>
                                 <ul>
                                     <li className="hamburger-open">
-                                        <a>About us</a>
+                                        <a href="#">About us</a>
                                     </li>
                                     <li>
-                                        <a>Webinars</a>
+                                        <a href="#">Webinars</a>
                                     </li>
                                     <li>
-                                        <a>Ambassadors</a>
+                                        <a href="#">Ambassadors</a>
                                     </li>
                                     <li>
-                                        <a>Testimonials</a>
+                                        <a href="#">Testimonials</a>
                                     </li>
                                     <li>
-                                        <a>Blog</a>
+                                        <a href="#">Blog</a>
                                     </li>
                                 </ul>
                             </div>

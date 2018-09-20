@@ -33,7 +33,7 @@ export default class Maps extends Component {
                     }}
                 >
                     <Iframe url={this.state.url} frameborder="0" style="border:0" />
-                    <button className='close' onClick={this.closeModal}></button>
+                    <button className="close" onClick={this.closeModal} />
                 </Modal>
 
                 <div className="maps-adress">

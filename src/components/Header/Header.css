@@ -227,10 +227,10 @@
     color: black;
 }
 .button-shopping.small:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  color: white;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    color: white;
 }
 @media only screen and (max-width: 75em) {
     .site-header {

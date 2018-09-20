@@ -3,17 +3,12 @@ footer {
     margin-top: auto;
     width: 100%;
 }
-/* .footer-list-top {
-    width: 25%;
-} */
 .footer-list-top {
     padding-left: 0;
 }
 .footer-list-top .text {
     font-size: 16px;
-    /* width: 85%; */
     text-align: left;
-    /* font-weight: 600; */
     line-height: 26px;
 }
 .footer-list-top div {
@@ -35,9 +30,6 @@ footer {
     align-items: center;
     cursor: pointer;
 }
-/* .ourProducts {
-    padding-right: 65px;
-} */
 .ourProducts .col-first {
     margin-right: 10px;
 }
@@ -101,7 +93,6 @@ footer {
     padding-left: 0;
     padding-right: 150px;
 }
-
 .footer-list-top .sign {
     text-align: left;
 }
@@ -219,9 +210,6 @@ footer {
     width: 50%;
     margin-right: 10px;
 }
-/* .col-second {
-    width: 83%;
-} */
 .cards .col-second {
     vertical-align: top;
 }
@@ -233,9 +221,6 @@ footer {
     }
 }
 @media only screen and (max-width: 64em) {
-    /* .footer-list-top div {
-        font-size: 10px;
-    } */
     .footer-list-top .text {
         font-size: 12px;
     }
@@ -253,9 +238,6 @@ footer {
     }
 }
 @media (max-width: 30em) {
-    /* .footer-container {
-        display: block;
-    } */
     .footer {
         width: 100%;
     }
@@ -270,36 +252,19 @@ footer {
         flex-direction: column;
         align-items: center;
         padding-bottom: 0px;
-        /* padding-left: 100px;
-        padding-right: 100px; */
     }
     .flex-rw {
         width: 100%;
         flex-direction: column;
     }
     .footer-list-header {
-        /* text-align: center; */
         padding-bottom: 10px;
-        /* width: 100%; */
-        /* flex-wrap: nowrap; */
         padding-right: 0px;
         font-size: 20px;
         margin-bottom: 10px;
         text-align: center;
     }
-    /* .footer-list-header.products {
-        padding-right: 140px;
-    }
-    .footer-list-header.books {
-        padding-right: 140px;
-    } */
     .footer-list-top {
-        /* width: 100%; 
-        justify-content: center;
-        padding-left: 68px; */
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* display: flex; */
         width: 50%;
         -ms-flex-direction: column;
         flex-direction: column;
@@ -325,13 +290,13 @@ footer {
         font-size: 2.4em;
     }
     .footer .social-media {
-      justify-content: center;
+        justify-content: center;
     }
     .footer-social-overlap > a {
         font-size: 2.24em;
     }
     .footer-list-top.sign .text {
-       text-align: center;
+        text-align: center;
     }
     .footer-bottom-wrapper {
         font-size: 1.3em;
@@ -356,10 +321,10 @@ footer {
         text-align: center;
     }
     .footer-list-top li {
-      text-align: center;
+        text-align: center;
     }
     .footer-list-top.sign {
-      text-align: center;
-      display: flex;
+        text-align: center;
+        display: flex;
     }
 }
