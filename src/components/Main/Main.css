@@ -29,6 +29,21 @@
     left: 7%;
     bottom: 15%;
 }
+.main-picture button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.main-picture button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    z-index: 1;
+}
 .close {
     width: 30px;
     height: 30px;
@@ -55,21 +70,6 @@
 }
 .close:hover {
     background: #e0d2d2;
-}
-.main-picture button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-.main-picture button span:after {
-    content: "\00bb";
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-    z-index: 1;
 }
 .ads div {
     position: relative;
@@ -150,13 +150,13 @@
     width: 32%;
     text-align: left;
     margin-right: 20px;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 .topic-wrapper .text {
     width: 75%;
     text-align: left;
     position: relative;
-    font-size: 18px;
+    font-size: 1.1em;
 }
 .topic-wrapper::before {
     content: "";
@@ -269,7 +269,7 @@
         width: 100%;
     }
     .text-container .text {
-        font-size: 20px;
+        font-size: 1.3em;
     }
 }
 @media (max-width: 40em) {

@@ -3,25 +3,6 @@
     top: 0;
     z-index: 2;
 }
-.site-header {
-    background: #006ab3;
-    color: white;
-    display: flex;
-    align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-.white {
-    background: white;
-    color: black;
-}
-.white .fa {
-    font-size: 15px;
-    color: #006ab3;
-}
-.white .actions .fa {
-    margin-right: 5px;
-}
 .header-container ul {
     list-style: none;
     display: flex;
@@ -59,6 +40,21 @@
 .header-container .fa-globe {
     font-size: 40px;
     color: blue;
+}
+.site-header {
+    background: #006ab3;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.white {
+    background: white;
+    color: black;
+}
+.white .actions .fa {
+    margin-right: 5px;
 }
 .hamburger-wrapper {
     position: relative;

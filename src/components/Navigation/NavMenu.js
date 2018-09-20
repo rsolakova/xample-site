@@ -12,28 +12,28 @@ export default class NavMenu extends Component {
                         <div className="title">Navigation</div>
                         <ul>
                             <li className="active">
-                                <a href="#">About us</a>
+                                <a>About us</a>
                             </li>
                             <li>
-                                <a href="#">Webinars</a>
+                                <a>Webinars</a>
                             </li>
                             <li>
-                                <a href="#">Ambassadors</a>
+                                <a>Ambassadors</a>
                             </li>
                             <li>
-                                <a href="#">Testimonials</a>
+                                <a>Testimonials</a>
                             </li>
                             <li>
-                                <a href="#">Blog</a>
+                                <a>Blog</a>
                             </li>
                             <li>
-                                <a href="#">Forum</a>
+                                <a>Forum</a>
                             </li>
                             <li>
-                                <a href="#">Public galerry</a>
+                                <a>Public galerry</a>
                             </li>
                             <li>
-                                <a href="#">FAQ</a>
+                                <a>FAQ</a>
                             </li>
                         </ul>
                     </div>

@@ -33,12 +33,12 @@ export default class Header extends Component {
                         </ul>
                     </nav>
                     <div className="actions">
-                        <a href="#">service@example.com</a>
-                        <a href="#">888.216.6400</a>
-                        <a href="#">Support</a>
-                        <a href="#">Order status</a>
+                        <a>service@example.com</a>
+                        <a>888.216.6400</a>
+                        <a>Support</a>
+                        <a>Order status</a>
                         <div className="user-account">
-                            <a href="#">
+                            <a>
                                 <div className="fa fa-shopping-cart" />Your account
                             </a>
                         </div>
@@ -58,49 +58,37 @@ export default class Header extends Component {
                         <div className="action-container">
                             <div className="fa-icons">
                                 <div className="fa fa-book" />
-                                <a href="#" className="text">
-                                    Photo books
-                                </a>
+                                <a className="text">Photo books</a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
                                 <div className="fa fa-print" />
-                                <a href="#" className="text">
-                                    Photo prints
-                                </a>
+                                <a className="text">Photo prints</a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
                                 <div className="fa fa-image" />
-                                <a href="#" className="text">
-                                    Wall Decor
-                                </a>
+                                <a className="text">Wall Decor</a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
                                 <div className="fa fa-file" />
-                                <a href="#" className="text">
-                                    Cards
-                                </a>
+                                <a className="text">Cards</a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
                                 <div className="fa fa-calendar" />
-                                <a href="#" className="text">
-                                    Calendars
-                                </a>
+                                <a className="text">Calendars</a>
                             </div>
                         </div>
                         <div className="action-container">
                             <div className="fa-icons">
                                 <div className="fa fa-star" />
-                                <a href="#" className="text">
-                                    Occasions
-                                </a>
+                                <a className="text">Occasions</a>
                             </div>
                         </div>
                     </div>

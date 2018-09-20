@@ -173,11 +173,8 @@ footer {
     width: 100%;
 }
 .generic-anchor {
-    color: #878383;
+    color: #111111;
     cursor: pointer;
-}
-.generic-anchor:visited {
-    color: #8db9ed;
 }
 .generic-anchor:hover {
     color: #ccc;
@@ -213,7 +210,6 @@ footer {
 .cards .col-second {
     vertical-align: top;
 }
-
 @media only screen and (max-width: 75em) {
     .footer-container {
         padding-left: 10px;

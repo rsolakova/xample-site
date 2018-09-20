@@ -35,19 +35,19 @@ class App extends Component {
                                 <div className="title">Navigation</div>
                                 <ul>
                                     <li className="active hamburger-open">
-                                        <a href="#">About us</a>
+                                        <a>About us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Webinars</a>
+                                        <a>Webinars</a>
                                     </li>
                                     <li>
-                                        <a href="#">Ambassadors</a>
+                                        <a>Ambassadors</a>
                                     </li>
                                     <li>
-                                        <a href="#">Testimonials</a>
+                                        <a>Testimonials</a>
                                     </li>
                                     <li>
-                                        <a href="#">Blog</a>
+                                        <a>Blog</a>
                                     </li>
                                 </ul>
                             </div>
@@ -55,19 +55,19 @@ class App extends Component {
                                 <div className="title">Navigation</div>
                                 <ul>
                                     <li className="hamburger-open">
-                                        <a href="#">About us</a>
+                                        <a>About us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Webinars</a>
+                                        <a>Webinars</a>
                                     </li>
                                     <li>
-                                        <a href="#">Ambassadors</a>
+                                        <a>Ambassadors</a>
                                     </li>
                                     <li>
-                                        <a href="#">Testimonials</a>
+                                        <a>Testimonials</a>
                                     </li>
                                     <li>
-                                        <a href="#">Blog</a>
+                                        <a>Blog</a>
                                     </li>
                                 </ul>
                             </div>

@@ -16,42 +16,66 @@ export default class Footer extends Component {
                             <div className="col-container">
                                 <div className="col-first">
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Photo prints</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Photo prints
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Photo books</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Photo books
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Fine art books</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Fine art books
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Metal prints</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Metal prints
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Photo calendars</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Photo calendars
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Collages</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Collages
+                                        </a>
                                     </li>
                                 </div>
                                 <div className="col-second">
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Greeting cards</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Greeting cards
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Canvas prints</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Canvas prints
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Framed photos</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Framed photos
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Photo mounting</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Photo mounting
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Gift cards</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Gift cards
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Mobile apps</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Mobile apps
+                                        </a>
                                     </li>
                                 </div>
                             </div>
@@ -61,24 +85,36 @@ export default class Footer extends Component {
                             <div className="col-container">
                                 <div className="col-first">
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Education</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Education
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Family</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Family
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Travel</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Travel
+                                        </a>
                                     </li>
                                 </div>
                                 <div className="col-second">
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Food</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Food
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Children</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Children
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Seasonal</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Seasonal
+                                        </a>
                                     </li>
                                 </div>
                             </div>
@@ -88,16 +124,24 @@ export default class Footer extends Component {
                             <div className="col-container">
                                 <div className="col-first">
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Halloween</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Halloween
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Thanksgiving</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Thanksgiving
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Classic</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Classic
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Vintage Photo Cards</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Vintage Photo Cards
+                                        </a>
                                     </li>
                                     <li>
                                         <a className="generic-anchor footer-list-anchor">Birthday/Party Invitations</a>
@@ -105,16 +149,24 @@ export default class Footer extends Component {
                                 </div>
                                 <div className="col-second">
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Stationery</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Stationery
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Baby Shower</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Baby Shower
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Thanks You</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Thanks You
+                                        </a>
                                     </li>
                                     <li>
-                                        <a className="generic-anchor footer-list-anchor">Save the Date</a>
+                                        <a href="#" className="generic-anchor footer-list-anchor">
+                                            Save the Date
+                                        </a>
                                     </li>
                                 </div>
                             </div>
@@ -152,17 +204,17 @@ export default class Footer extends Component {
                     </div>
                     <section className="footer-bottom-section flex-rw">
                         <div className="footer-last">
-                            <a href='#'>Pricing</a>
-                            <a href='#'>About us</a>
-                            <a href='#'>Invite friends</a>
-                            <a href='#'>Blog</a>
-                            <a href='#'>FAQS</a>
-                            <a href='#'>Forums</a>
-                            <a href='#'>Testimonials</a>
-                            <a href='#'>Public gallery</a>
-                            <a href='#'>Terms and conditions</a>
-                            <a href='#'>Return policy</a>
-                            <a href='#'>Affiliate program</a>
+                            <a>Pricing</a>
+                            <a>About us</a>
+                            <a>Invite friends</a>
+                            <a>Blog</a>
+                            <a>FAQS</a>
+                            <a>Forums</a>
+                            <a>Testimonials</a>
+                            <a>Public gallery</a>
+                            <a>Terms and conditions</a>
+                            <a>Return policy</a>
+                            <a>Affiliate program</a>
                         </div>
                     </section>
                     <section className="footer-bottom-section flex-rw" />
